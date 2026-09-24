@@ -1,0 +1,21 @@
+# Ambientes e caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Dados e artefatos de modelos
+data/
+*.csv
+*.parquet
+*.joblib
+*.pkl
+
+# IDEs e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
